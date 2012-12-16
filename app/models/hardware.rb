@@ -1,0 +1,3 @@
+class Hardware < Product
+	
+end
