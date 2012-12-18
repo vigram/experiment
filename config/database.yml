@@ -8,8 +8,8 @@ development:
   encoding: utf8
   database: experiment_development
   pool: 5
-  username: root
-  password: vicky
+  username: cyncable
+  password: cyncable
   host: localhost
 
 test:
@@ -17,6 +17,15 @@ test:
   encoding: utf8
   database: experiment_test
   pool: 5
-  username: root
-  password: vicky
+  username: cyncable
+  password: cyncable
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: experiment_production
+  pool: 5
+  username: cyncable
+  password: cyncable
   host: localhost
